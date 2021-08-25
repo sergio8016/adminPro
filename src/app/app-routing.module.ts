@@ -6,6 +6,7 @@ import { ProgressComponent } from "./pages/progress/progress.component";
 import { Graphics1Component } from "./pages/graphics1/graphics1.component";
 import { NoPageFoundComponent } from "./pages/no-page-found/no-page-found.component";
 import { PagesComponent } from "./pages/pages.component";
+import { RegisterComponent } from "./auth/register/register.component";
 
 const routes: Routes = [
   {
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'register',
+    component: RegisterComponent
   },
   {
     path: '**',
