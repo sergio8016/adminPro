@@ -14,6 +14,7 @@ import { ProgressBarComponent } from './pages/progress-bar/progress-bar.componen
 import { GraphicsOneComponent } from './pages/graphics-one/graphics-one.component';
 import {AppRoutingModule} from "./app-routing.module";
 import { PagesComponent } from './pages/pages/pages.component';
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PagesComponent } from './pages/pages/pages.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
